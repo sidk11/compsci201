@@ -1,0 +1,14 @@
+Name: Siddhant Khanna
+
+NetID: sk546
+
+Hours Spent: 7.5
+
+Consulted With: Rahul Ramesh, Joey Li
+Resources Used: UTA hours, stack overflow
+Difficulty level:7
+
+Impressions: Helped understand priority queues
+
+----------------------------------------------------------------------
+

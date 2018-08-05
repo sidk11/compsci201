@@ -1,0 +1,53 @@
+Name: Siddhant Khanna
+NetID: sk546
+Hours Spent: 13
+Consulted With: TA's from helper hours, Joey Li, Rahul Ramesh
+Resources Used: Stack overflow
+Impressions: Pretty cool assignment
+----------------------------------------------------------------------
+Problem 1: Used HuffMain to test the decompress and compress methods. 
+For decompress, used Hidden1.txt.hf, Hidden2.txt.hf and mystery.tif.hf. After decompression they turned to .unhf files
+Since I got comprehensible texts, I believe it worked. 
+For compress, I chose a file with .unhf, and when I ran HuffMain, I created a new file that had 
+the extension .hf for compressed. 
+The special cases included the files with the tif extensions, gave me picture of a frog.
+
+Problem 2: Benchmark and analyze your code
+Calgary (bib): 
+  	
+Compression rate: 174.68% 	
+Time: 0.059 seconds
+  	
+File length (original, compressed): (117541,76605)
+  	
+Number nodes: 82
+  	
+  
+
+Waterloo (barb):
+  	
+Compression rate: 124.34% 	
+Time: 0.029 seconds
+  	
+File length (original, compressed): (262274,243819)
+  	
+Number nodes: 230
+ 
+
+
+The more HuffNodes there are and the larger the file, the more time it will take to compress those bytes, 
+or fewer bytes will be compressed for the same amount of time. 
+
+Problem 3: Text vs. Binary 
+The text compresses more according to the data. The images are already in compressed form, so 
+compressing them even further 
+will not result in a large change in the number of bytes. 
+
+
+Problem 4: Compressing compressed files
+On second compression, the file size reduced very little.
+
+Huffman is not effective in compressing again because the tree created for efficiency and for saving space cannot 
+be 
+even more efficient after that (the number of nodes did not decrease).
+

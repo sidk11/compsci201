@@ -1,0 +1,7 @@
+Name: Siddhant Khanna
+NetID: sk546
+Hours Spent: 9.5
+Consulted With: Rahul Ramesh, Joey Li, Daniel Zhou
+Resources Used: Java website, Stack Overflow
+Difficulty level: 7
+Impressions: Not sure why Analysis had to be so hard
